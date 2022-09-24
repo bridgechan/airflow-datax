@@ -1,4 +1,5 @@
 # airflow-datax
+此项目由airflow和datax组件构成。Airflow是一个由社区创建的平台，用于以编程方式创作、安排和监控工作流程，而datax是一个开源的数据离线同步工具。项目中通过airflow调度平台，通过开发DAGS作业，定期的调度执行一个个datax任务，将数据从数据源离线同步至目标端。airflow通过SSHOperator执行远端datax容器里面的shell任务。具体脚本请参考相关目录。
 
 一、Dockerfile构建datax镜像  
 准备工作：  
