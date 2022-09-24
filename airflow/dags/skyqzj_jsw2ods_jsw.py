@@ -16,7 +16,7 @@ s = SSHHook(
     # ssh_conn_id='ssid',
     remote_host='datax',
     username='root',
-    password='zuY4Pai#',
+    password='xxxxxx',
     # key_file='',
     port=22
 )

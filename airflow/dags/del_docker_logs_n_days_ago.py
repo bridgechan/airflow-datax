@@ -2,7 +2,7 @@
 """
 Created on Mon Aug 22 17:34:49 2022
 
-@author: chenq
+@author: dc
 """
 
 from airflow import DAG
@@ -15,7 +15,7 @@ from airflow.providers.postgres.operators.postgres import PostgresOperator
 #from airflow.operators.generic_transfer import GenericTransfer
 
 args = {
-    'owner': 'chq',
+    'owner': 'dc',
     'depends_on_past': False,
     'start_date': datetime(2022,8,22,0,0,0),
 #    'start_date': days_ago(1),
